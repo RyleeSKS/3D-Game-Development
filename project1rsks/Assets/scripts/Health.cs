@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+
 
 public class Health : MonoBehaviour
 {
@@ -28,7 +30,8 @@ public class Health : MonoBehaviour
             if (currentHealth <= 0)
             {
                 currentHealth = 0;
-                //we ded
+                int sceneIndex = SceneManager.GetActiveScene().buildIndex;
+                SceneManager.LoadScene(sceneIndex);
                 Debug.Log("you are now ded");
             }
             healthBar.fillAmount = currentHealth / maxHealth;

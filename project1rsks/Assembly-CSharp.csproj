@@ -57,14 +57,17 @@
     <Compile Include="Assets\scripts\kick.cs" />
     <Compile Include="Assets\scripts\Node.cs" />
     <Compile Include="Assets\scripts\ObjectTeleport.cs" />
+    <Compile Include="Assets\scripts\MainMenu.cs" />
+    <Compile Include="Assets\scripts\Interaction.cs" />
+    <Compile Include="Assets\scripts\Health.cs" />
+    <Compile Include="Assets\scripts\DamageTrigger.cs" />
     <Compile Include="Assets\scripts\PlayerController.cs" />
+    <Compile Include="Assets\scripts\GenerateHUD.cs" />
+    <Compile Include="Assets\scripts\Door.cs" />
     <Compile Include="Assets\scripts\MouseLook.cs" />
-    <Compile Include="Assets\scripts\OOP.cs" />
     <Compile Include="Assets\scripts\BreadthFirstSearch.cs" />
-    <Compile Include="Assets\Interaction.cs" />
-    <Compile Include="Assets\Door.cs" />
-    <Compile Include="Assets\Health.cs" />
-    <Compile Include="Assets\DamageTrigger.cs" />
+    <Compile Include="Assets\scripts\OOP.cs" />
+    <Compile Include="Assets\FiniteStateMachine.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
