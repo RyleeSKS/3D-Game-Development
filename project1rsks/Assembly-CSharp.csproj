@@ -53,6 +53,7 @@
     <UnityVersion>2020.3.26f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\scripts\FiniteStateMachine.cs" />
     <Compile Include="Assets\scripts\DepthFirstSearch.cs" />
     <Compile Include="Assets\scripts\kick.cs" />
     <Compile Include="Assets\scripts\Node.cs" />
@@ -67,7 +68,6 @@
     <Compile Include="Assets\scripts\MouseLook.cs" />
     <Compile Include="Assets\scripts\BreadthFirstSearch.cs" />
     <Compile Include="Assets\scripts\OOP.cs" />
-    <Compile Include="Assets\FiniteStateMachine.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
